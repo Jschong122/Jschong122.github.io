@@ -1,7 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-<<<<<<< HEAD
 
 * {
   margin: 0;
@@ -74,5 +73,3 @@ body {
   margin: 1rem;
   width: 20%;
 }
-=======
->>>>>>> 90c7f06fa971c42831af0b9bd002680b3956f05e
