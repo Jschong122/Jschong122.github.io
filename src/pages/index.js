@@ -5,7 +5,10 @@ import Intro from "../components/Intro";
 
 const IndexPage = () => {
   return (
-    <div className="flex flex-2 h-screen w-screen m-5 justify-center">
+    <div
+      className="flex  flex-2 h-screen w-screen m-5 justify-center
+    "
+    >
       <PersonalMsg />
       <Intro />
     </div>

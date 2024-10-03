@@ -1,35 +1,27 @@
 import React from "react";
 import global from "../styles/global.css";
+import { Link } from "gatsby";
+import { MoveRight } from "lucide-react";
 
 const Intro = () => {
   return (
-    <div className=" intro-wrapper w-[60%] h-[100%] text-lg">
-      <p className="intro-text1">
-        Always thought animal science would be my career path. Growing up with
-        two little dogs, I imagined working with animals would be my future.
-        This belief stayed with me through to my graduation with a degree in
-        animal science. However, after completing my studies, I decided to
-        re-ignite my passion for coding. It wasn't just the growing trend of AI
-        that drew me back in, but also the genuine happiness I felt when solving
-        coding challenges and encountering problems that pushed me to think
-        creatively.
+    <div className=" intro-wrapper w-[60%] h-[100%]  ">
+      <p className="">
+        I’m a software engineer with experience in building full-stack
+        applications using modern technologies like HTML, CSS, JavaScript,
+        React, and databases. Recently, I developed a medical appointment system
+        with a real-time chat interface, using Shadcn UI, NextAuth for
+        authentication, and Cloudinary for photo uploads. My focus is on
+        creating scalable, impactful applications that streamline processes and
+        improve user experience. I thrive on solving complex problems and
+        continuously learning new technologies to deliver high-quality
+        solutions.
       </p>
-      <p className="intro-text2">
-        With a unique foundation in animal science, I bring strong analytical
-        skills, logical thinking from scientific research, and the ability to
-        work with large datasets to my current work in full-stack development.
-        Having recently completed an intensive software engineering course at
-        the Institute of Data, I’ve honed my skills in HTML, CSS, JavaScript,
-        React, and databases. One of my proudest projects is a medical
-        appointment system that implements a real-time chat interface using
-        Shadcn UI, NextAuth for authentication, and Cloudinary for photo
-        uploads. This project demonstrates my ability to learn quickly and
-        implement modern solutions in web development. I'm driven by the goal of
-        creating scalable and impactful applications that streamline processes
-        and solve real-world problems. By combining my analytical mindset with
-        my growing software expertise, I’m eager to take on new challenges in
-        the IT field and make a lasting impact.{" "}
-      </p>
+
+      <Link to="/about" className="">
+        <MoveRight />
+        <span className="ml-2 "> Learn more about me </span>
+      </Link>
     </div>
   );
 };

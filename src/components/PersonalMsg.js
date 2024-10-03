@@ -5,27 +5,23 @@ import { Link } from "gatsby";
 const PersonalMsg = () => {
   return (
     <div className="  personal-msg-wrapper w-[30%] h-[100%]">
-      <h1 className="text-6xl mb-4">Hello, I'm Jess</h1>
-      <h5 className=" font-normal mb-4">
+      <h1 className="text-6xl mt-5">Hello, I'm Jess</h1>
+      <h5 className=" text-md  font-normal mb-4 text-gray-400">
         Graduate Front-end / Software Developer
       </h5>
       <div className="social-media-wrapper">
-        <Link to="https://github.com/Jschong122">
+        <a href="https://github.com/Jschong122">
           <StaticImage
-            width={30}
-            height={30}
             src="../assets/icons/github-mark-white.png"
             alt="github logo"
           />
-        </Link>
-        <Link to="https://github.com/Jschong122">
+        </a>
+        <a href="https://www.linkedin.com/in/wai-suen-chong-887907239/">
           <StaticImage
-            width={30}
-            height={30}
-            src="../assets/icons/Linkedin-logo.png"
+            src="../assets/icons/LinkedIn-logo.png"
             alt="LinkedIn logo"
           />
-        </Link>
+        </a>
       </div>
     </div>
   );
