@@ -4,8 +4,10 @@ import { Link } from "gatsby";
 
 const PersonalMsg = () => {
   return (
-    <div className="  personal-msg-wrapper w-[30%] h-[100%]">
-      <h1 className="text-6xl mt-5">Hello, I'm Jess</h1>
+    <div className="  personal-msg-wrapper  ">
+      <h1 className="text-5xl justify-center text-center  mt-5">
+        Hello, I'm Jess
+      </h1>
       <h5 className=" text-md  font-normal mb-4 text-gray-400">
         Graduate Front-end / Software Developer
       </h5>

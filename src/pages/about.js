@@ -5,7 +5,7 @@ import { Link } from "gatsby";
 // Step 2: Define your component
 const AboutPage = () => {
   return (
-    <main className="abaout-me">
+    <main className="about-me">
       <Link to="/">Go home</Link>
       <h1>About Me</h1>
       <div className="about-me-text">
