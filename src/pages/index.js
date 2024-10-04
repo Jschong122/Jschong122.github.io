@@ -16,9 +16,8 @@ const IndexPage = () => {
         <Project />
       </div>
       <div className=" text-slate-500 mt-8 ">
-        {" "}
-        <h6> This is a testing version. Actual content might be different</h6>
-        <h6> Last updated on 04/10/2024</h6>{" "}
+        <p> This is a testing version. Actual content might be different</p>
+        <p> Last updated on 04/10/2024</p>{" "}
       </div>
     </div>
   );

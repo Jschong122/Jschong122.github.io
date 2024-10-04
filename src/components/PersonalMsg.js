@@ -1,6 +1,7 @@
 import React from "react";
 import { StaticImage } from "gatsby-plugin-image";
 import { Link } from "gatsby";
+import global from "../styles/global.css";
 
 const PersonalMsg = () => {
   return (
@@ -16,12 +17,16 @@ const PersonalMsg = () => {
           <StaticImage
             src="../assets/icons/github-mark-white.png"
             alt="github logo"
+            width={30}
+            height={30}
           />
         </a>
         <a href="https://www.linkedin.com/in/wai-suen-chong-887907239/">
           <StaticImage
             src="../assets/icons/LinkedIn-logo.png"
             alt="LinkedIn logo"
+            width={30}
+            height={30}
           />
         </a>
       </div>

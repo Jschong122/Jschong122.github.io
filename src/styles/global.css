@@ -36,7 +36,7 @@ h6 {
 
 body {
   background-color: #04292c;
-  color: white;
+  color: rgb(212, 212, 212);
 }
 
 /* index.js  */
@@ -106,13 +106,10 @@ a {
 .social-media-wrapper {
   display: flex;
   align-items: center;
-  align-items: center;
 }
 
-.social-media-wrapper img {
-  width: 40px;
-  height: 40px;
-  margin: 0 10px;
+.social-media-wrapper a {
+  margin: 10px;
 }
 
 /* About me */
