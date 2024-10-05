@@ -8,21 +8,25 @@ const Intro = () => {
   return (
     <div>
       <Title title="INTRODUCTION" />
-      <div className="intro-wrapper  ">
+      <div className="content-inside-div ">
         <p className="">
           I’m a software engineer with experience in building full-stack
-          applications using modern technologies like HTML, CSS, JavaScript,
-          React, and databases. Recently, I developed a medical appointment
-          system with a real-time chat interface, using Shadcn UI, NextAuth for
-          authentication, and Cloudinary for photo uploads. My focus is on
-          creating scalable, impactful applications that streamline processes
-          and improve user experience. I thrive on solving complex problems and
-          continuously learning new technologies to deliver high-quality
-          solutions.
+          applications using modern technologies like
+          <span className="font-bold">
+            {" "}
+            {""}
+            HTML, CSS, JavaScript, React, and databases
+          </span>
+          . Recently, I developed a medical appointment system with a real-time
+          chat interface, using Shadcn UI, NextAuth for authentication, and
+          Cloudinary for photo uploads. My focus is on creating scalable,
+          impactful applications that streamline processes and improve user
+          experience. I thrive on solving complex problems and continuously
+          learning new technologies to deliver high-quality solutions.
         </p>
         <Link to="/about" className="">
           <MoveRight />
-          <span className="ml-2 "> Learn more about me </span>
+          <span className="ml-2 ">Learn more about me</span>
         </Link>
       </div>
     </div>

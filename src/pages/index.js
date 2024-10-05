@@ -2,22 +2,28 @@ import * as React from "react";
 import { Link } from "gatsby";
 import PersonalMsg from "../components/PersonalMsg";
 import Intro from "../components/Intro";
-
-import Project from "../components/Project";
+import Skills from "../components/Skills";
+import Projects from "../components/Projects";
+import Education from "../components/Education";
 
 const IndexPage = () => {
   return (
-    <div className=" index-wrapper ">
-      <div className="left-index">
-        <PersonalMsg />
+    <div className="m-5">
+      <div className="index-wrapper">
+        <div className="left-index">
+          <PersonalMsg />
+          <Education />
+        </div>
+        <div className="right-index">
+          <Intro />
+          <Projects />
+          <Skills />
+        </div>
       </div>
-      <div className="right-index">
-        <Intro />
-        <Project />
-      </div>
-      <div className=" text-slate-500 mt-8 ">
+
+      <div className="  ">
         <p> This is a testing version. Actual content might be different</p>
-        <p> Last updated on 04/10/2024</p>{" "}
+        <p> Last updated on 05/10/2024</p>
       </div>
     </div>
   );
