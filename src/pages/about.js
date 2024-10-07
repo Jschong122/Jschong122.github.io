@@ -9,32 +9,48 @@ const AboutPage = () => {
       <Link to="/">Go home</Link>
       <h1>About Me</h1>
       <div className="about-me-text">
-        {" "}
-        <p>
-          Always thought animal science would be my career path. Growing up with
-          two little dogs, I imagined working with animals would be my future.
-          This belief stayed with me through to my graduation with a degree in
-          animal science. However, after completing my studies, I decided to
-          re-ignite my passion for coding. It wasn't just the growing trend of
-          AI that drew me back in, but also the genuine happiness I felt when
-          solving coding challenges and encountering problems that pushed me to
-          think creatively.
+        <h2>Animal Science Beginnings</h2>
+        <p className="font-light">
+          I always thought animal science would be my career path. Growing up
+          with two little dogs, I imagined my future working with animals. This
+          belief carried me through to my graduation with a degree in animal
+          science. However, after finishing my studies, I reignited my passion
+          for coding. It wasn't just the rise of AI that drew me back. After the
+          failure of opening an online Shopify and WordPress (WooCommerce)
+          store, as I couldn't achieve the look and features I wanted, I gave up
+          on that idea. This made me rethink my path and ultimately led me to
+          put my foot into coding.
         </p>
-        <p className="mt-5">
-          With a unique foundation in animal science, I bring strong analytical
-          skills, logical thinking from scientific research, and the ability to
-          work with large datasets to my current work in full-stack development.
-          Having recently completed an intensive software engineering course at
-          the Institute of Data, I’ve honed my skills in HTML, CSS, JavaScript,
-          React, and databases. One of my proudest projects is a medical
-          appointment system that implements a real-time chat interface using
-          Shadcn UI, NextAuth for authentication, and Cloudinary for photo
-          uploads. This project demonstrates my ability to learn quickly and
-          implement modern solutions in web development. I'm driven by the goal
-          of creating scalable and impactful applications that streamline
-          processes and solve real-world problems. By combining my analytical
-          mindset with my growing software expertise, I’m eager to take on new
-          challenges in the IT field and make a lasting impact.
+
+        <h3>A New Path: Coding</h3>
+        <p className="font-light">
+          After spending six months in an intensive coding environment, I felt
+          incredibly happy when I completed my own project—finally turning my
+          ideas into something real. My background in animal science gives me
+          strong analytical skills, logical thinking from research, and
+          experience working with large datasets—skills I now bring to
+          full-stack development. After completing an intensive software
+          engineering course at the Institute of Data, I've honed my skills in
+          HTML, CSS, JavaScript, React, and databases.
+        </p>
+
+        <h3>Notable Project: Medical Appointment System</h3>
+        <p className="font-light">
+          One of my proudest projects is a medical appointment system that
+          includes a real-time chat feature using Shadcn UI, NextAuth for
+          authentication, and Cloudinary for photo uploads. In this project, I
+          learned a lot of new tools and started almost everything from scratch.
+          I am glad about the result, even though it is not perfect; it is
+          undoubtedly an unforgettable experience. This project shows my ability
+          to learn quickly and apply modern web development solutions.
+        </p>
+
+        <h3>Looking Ahead</h3>
+        <p className="font-light">
+          I'm passionate about creating scalable, impactful applications that
+          streamline processes and solve real-world problems. By combining my
+          analytical mindset with growing software expertise, I’m ready to take
+          on new challenges in the IT field and make a meaningful impact.
         </p>
       </div>
     </main>

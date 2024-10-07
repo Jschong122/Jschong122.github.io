@@ -22,8 +22,7 @@ const IndexPage = () => {
       </div>
 
       <div className="  ">
-        <p> This is a testing version. Actual content might be different</p>
-        <p> Last updated on 05/10/2024</p>
+        <p> Last updated on 07/10/2024</p>
       </div>
     </div>
   );

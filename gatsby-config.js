@@ -6,7 +6,7 @@ module.exports = {
   siteMetadata: {
     title: `personal portfolio`,
 
-    siteUrl: `https://www.yourdomain.tld`,
+    siteUrl: `https://jschong122.github.io/`,
   },
   plugins: [
     "gatsby-plugin-postcss",
@@ -17,8 +17,8 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `"Work Sans\:100,900`,
-          `Open+Sans\:300,400,600,700`, // Example of another font
+          `Work Sans:100,200,300,400, 500, 900`,
+          `Open+Sans:300,400,600,700`,
         ],
         display: "swap",
       },

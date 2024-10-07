@@ -39,9 +39,6 @@ body {
   color: rgb(212, 212, 212);
 }
 
-* {
-  color: rgb(212, 212, 212);
-}
 /* index.js  */
 
 .index-wrapper {
@@ -88,19 +85,18 @@ body {
 
 .content-inside-div p {
   font-size: 1.2rem;
-  line-height: 2.5rem;
-  text-align: justify;
-  justify-content: center;
-}
-
-a {
-  color: rgb(41, 216, 216);
+  line-height: 2.3rem;
+  font-weight: 300;
 }
 
 .content-inside-div a {
   margin-top: 20px;
   display: flex;
   align-items: center;
+}
+
+#intro-link {
+  color: rgb(43, 180, 157);
 }
 
 /* social media wrapper  */
@@ -117,21 +113,25 @@ a {
 /* About me */
 .about-me {
   font-size: 25px;
-  margin: 8%;
-
-  line-height: 2rem;
+  margin: 1% 8%;
 }
 
 .about-me h1 {
-  font-size: 40px;
-  margin-top: 5%;
+  margin-top: 2%;
 }
 .about-me-text {
   width: 100%;
-  margin: 5% 0;
+  margin: 3% 0;
   font-size: 19px;
   line-height: 2rem;
   color: rgb(212, 212, 212);
+}
+
+.about-me-text p {
+  margin-bottom: 2%;
+  margin-top: 0.5%;
+  color: rgba(190, 190, 190, 0.836);
+  line-height: 1.5em;
 }
 
 .title-text {
@@ -142,6 +142,9 @@ a {
   margin: 1.5rem 0;
 }
 
+a {
+  color: rgb(43, 180, 157);
+}
 /* Media queries */
 
 @media screen and (max-width: 1024px) {
@@ -182,23 +185,15 @@ a {
     font-size: 19px;
     text-align: left;
   }
+
   .about-me {
     font-size: 25px;
-    margin: 8%;
-
-    line-height: 2rem;
+    margin: 1% 8%;
   }
 
-  .about-me h1 {
-    font-size: 30px;
-    margin-top: 5%;
-  }
-  .about-me-text {
-    width: 100%;
-    margin: 5% 0;
-    font-size: 20px;
-    line-height: 2rem;
-    color: rgb(184, 182, 182);
+  .about-me-text p {
+    margin-top: 1%;
+    margin-bottom: 8%;
   }
 
   .product-card {

@@ -10,21 +10,22 @@ const Intro = () => {
       <Title title="INTRODUCTION" />
       <div className="content-inside-div ">
         <p className="">
-          I’m a software engineer with experience in building full-stack
-          applications using modern technologies like
-          <span className="font-bold">
+          I am a graduate web developdfer who transitioned from animal science
+          to software engineering. I completed a{" "}
+          <span className="font-extrabold">
             {" "}
-            {""}
-            HTML, CSS, JavaScript, React, and databases
+            six-month coding bootcamp, gaining skills in HTML, CSS, React,
+            Next.js, Express.js
           </span>
-          . Recently, I developed a medical appointment system with a real-time
-          chat interface, using Shadcn UI, NextAuth for authentication, and
-          Cloudinary for photo uploads. My focus is on creating scalable,
-          impactful applications that streamline processes and improve user
-          experience. I thrive on solving complex problems and continuously
-          learning new technologies to deliver high-quality solutions.
+          , and more. My analytical skills from animal science have been
+          invaluable in optimizing web projects. I build projects that make
+          tasks more efficient, such as a leave management system for employees
+          and managers, and a medical appointment system for real-time
+          communication between patients and doctors. My experience includes
+          front-end development with React, back-end development with
+          Express.js, and creating responsive web designs.
         </p>
-        <Link to="/about" className="">
+        <Link to="/about" id="intro-link">
           <MoveRight />
           <span className="ml-2 ">Learn more about me</span>
         </Link>

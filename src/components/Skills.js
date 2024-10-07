@@ -40,6 +40,7 @@ const Skills = () => {
           <h4>Tools</h4>
           <ul className=" list-disc flex flex-col ml-5 ">
             <li>Mongoose (Database ODM)</li>
+            <li>Sequelize (Database ODM)</li>
             <li>Cloudinary (Media Storage)</li>
             <li>NextAuth (Authentication)</li>
           </ul>
