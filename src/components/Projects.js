@@ -6,13 +6,23 @@ const Projects = () => {
   return (
     <div>
       <Title title="PROJECTS" />
-      <div className="projects-wrapper content-inside-div">
+      <div className="projects-wrapper ">
         <ul>
+          <li>
+            <ProjectCard
+              title="Personal Website"
+              caption="My personal portfolio"
+              skills="HTML, CSS, React, Gatsby, Tailwind CSS"
+              link="You are viewing right now"
+            ></ProjectCard>
+          </li>
           <li>
             <ProjectCard
               title="Dog Breeds Search Tool"
               caption="A simple static website project to demonstrate foundational web development skills using HTML, CSS, and JavaScript."
               skills="HTML, CSS, JavaScript"
+              link="https://github.com/Jschong122/IOD-mini-project1/tree/main"
+              demo="https://dog-breed-search-tool.netlify.app/"
             />
           </li>
           <li>

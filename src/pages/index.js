@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Link } from "gatsby";
+
 import PersonalMsg from "../components/PersonalMsg";
 import Intro from "../components/Intro";
 import Skills from "../components/Skills";
@@ -7,6 +7,9 @@ import Projects from "../components/Projects";
 import Education from "../components/Education";
 
 const IndexPage = () => {
+  const today = new Date();
+  const formattedDate = today.toLocaleDateString("en-GB");
+
   return (
     <div className="m-5">
       <div className="index-wrapper">
@@ -22,7 +25,7 @@ const IndexPage = () => {
       </div>
 
       <div className="  ">
-        <p> Last updated on 07/10/2024</p>
+        <p> Last updated on {formattedDate}</p>
       </div>
     </div>
   );

@@ -145,6 +145,7 @@ body {
 a {
   color: rgb(43, 180, 157);
 }
+
 /* Media queries */
 
 @media screen and (max-width: 1024px) {
