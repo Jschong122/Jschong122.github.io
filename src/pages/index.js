@@ -28,6 +28,6 @@ const IndexPage = () => {
   );
 };
 
-export const Head = () => <title>Home Page</title>;
+export const Head = () => <title>Jess Chong's portfolio</title>;
 
 export default IndexPage;
