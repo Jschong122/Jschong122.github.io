@@ -7,9 +7,6 @@ import Projects from "../components/Projects";
 import Education from "../components/Education";
 
 const IndexPage = () => {
-  const today = new Date();
-  const formattedDate = today.toLocaleDateString("en-GB");
-
   return (
     <div className="m-5">
       <div className="index-wrapper">
@@ -25,7 +22,7 @@ const IndexPage = () => {
       </div>
 
       <div className="  ">
-        <p> Last updated on {formattedDate}</p>
+        <p> Last updated on 10/10/2024</p>
       </div>
     </div>
   );
